@@ -98,7 +98,5 @@ if __name__ == '__main__':
     play = ConsoleController(int(num_cheeses), int(num_stools))
     play.play_loop()
           
-    # Leave lines below as they are, so you will know what python_ta checks.
-    # You will need consolecontroller_pyta.txt in the same folder.
     import python_ta
     python_ta.check_all(config="consolecontroller_pyta.txt")
