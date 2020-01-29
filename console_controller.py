@@ -62,19 +62,6 @@ class ConsoleController:
 
         @param ConsoleController self:
         @rtype: None
-
-        TODO:
-        -Start by giving instructions about how to enter moves (which is up to
-        you). Be sure to provide some way of exiting the game, and indicate
-        that in the instructions.
-        -Use python's built-in function input() to read a potential move from
-        the user/player. You should print an error message if the input does
-        not meet the specifications given in your instruction or if it denotes
-        an invalid move (e.g. moving a cheese onto a smaller cheese).
-        You can print error messages from this method and/or from
-        ConsoleController.move; it's up to you.
-        -After each valid move, use the method TOAHModel.__str__ that we've
-        provided to print a representation of the current state of the game.
         """
         print(self.instructions)      
         command = input("Enter a move or type Quit to exit: ")
@@ -100,9 +87,6 @@ class ConsoleController:
         print("\nYou have successfully quit the game!")   
             
 if __name__ == '__main__':
-    # TODO:
-    # You should initiate game play here. Your game should be playable by
-    # running this file.
     num_cheeses = input("Enter number of cheese: ")
     while not num_cheeses.isnumeric():
         print('Input needs to be numeric and positive\n')
