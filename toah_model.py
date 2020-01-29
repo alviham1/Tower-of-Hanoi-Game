@@ -448,7 +448,5 @@ class MoveSequence(object):
 if __name__ == '__main__':
     import doctest
     doctest.testmod(verbose=True)
-    # Leave lines below to see what python_ta checks.
-    # File toahmodel_pyta.txt must be in same folder.
     import python_ta
     python_ta.check_all(config="toahmodel_pyta.txt")
