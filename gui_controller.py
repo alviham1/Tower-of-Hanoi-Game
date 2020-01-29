@@ -236,7 +236,5 @@ class GUIController:
 if __name__ == "__main__":
     gui = GUIController(5, 4, 1024, 320, 20)
     tk.mainloop()
-    # Leave lines below so you can see what python_ta checks
-    # File guicontroller_pyta.txt must be in same folder.
     import python_ta
     python_ta.check_all(config="guicontroller_pyta.txt")
