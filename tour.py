@@ -114,7 +114,5 @@ if __name__ == '__main__':
                         delay_btw_moves=delay_between_moves)
     
     print(four_stools.number_of_moves())
-    # Leave files below to see what python_ta checks.
-    # File tour_pyta.txt must be in same folder
     import python_ta
     python_ta.check_all(config="tour_pyta.txt")
